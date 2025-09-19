@@ -1,5 +1,5 @@
 # sdmx_ML_validation
-We test here the idea that one can use a __unique method__, __independent of data__ to create the sets of validation rules needed for various datasets/stages of the GSBPM. See our [slides]() for the sdmx-2025 conference.
+We test here the idea that one can use a __unique method__, __independent of data__ to create the sets of validation rules needed for various datasets/stages of the GSBPM. See our [slides](https://github.com/violetacln/sdmx_ML_validation/blob/main/slides_Iceland.pdf) for the sdmx-2025 conference.
 
 This involves, in addition to using _expert knowledge_ based rules, which still play a role, exploiting:
 
