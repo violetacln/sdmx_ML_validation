@@ -11,8 +11,8 @@ rules$rules
 
 d <- data.frame(car_owner)
 
-## example data HAGS
-d <- read.csv("C:/Users/violetac/OneDrive - Public Administration/Desktop/sdmx_validation_R_py/BCS_QBD_Q2_2023OllgognAnDataflow.csv", sep=";", header=TRUE)
+## our example data 
+d <- read.csv("file_X.csv", sep=";", header=TRUE)
 
 suggest_rules( d, vars = names(d), domain_check = TRUE,
                range_check = TRUE, pos_check = TRUE,
@@ -34,5 +34,6 @@ write_all_suggestions( d, vars = names(d),
                        pos_check = TRUE, na_check = TRUE,
                        unique_check = TRUE, ratio_check = TRUE,
                        conditional_rule = TRUE )
+
 
 ##suggest_cond_rule(d)
